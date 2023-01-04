@@ -35,7 +35,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
   // var data;
 
   List _listdata =[];
-  var uri = "http://192.168.43.252/mount-app-mongo/destinasi.php";
+  var uri = "http://localhost/mount-app-mongo/destinasi.php";
 
   Future _getData() async {
     try {
