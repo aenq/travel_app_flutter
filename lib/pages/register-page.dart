@@ -39,7 +39,7 @@ TextEditingController cpassword = TextEditingController();
 class _RegisterPage extends State<RegisterPage> {
 
   Future _registData() async {
-    final response = await http.post(Uri.parse('http://192.168.43.252/mount-app-mongo/register.php'),
+    final response = await http.post(Uri.parse('http://localhost/mount-app-mongo/register.php'),
     body: {
       "namaLengkap": namaLengkap.text,
       "username": username.text,
