@@ -20,7 +20,7 @@ class DetailPage extends StatefulWidget {
 
 class _DetailPageState extends State<DetailPage> {
   List _listdata =[];
-  var uri = "http://192.168.43.252/mount-app/destinasi.php";
+  var uri = "http://localhost/mount-app/destinasi.php";
 
   Future _getData() async {
     try {
