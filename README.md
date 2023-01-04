@@ -1,6 +1,12 @@
-# tugas_akhir_pam
+# Mountain Travel App
 
-A new Flutter project.
+Proyek ini dibuat untuk memenuhi tugas besar mata kuliah Pemrograman Aplikasi Mobile
+
+## Stack
+- Flutter
+- Dart
+- MongoDB
+- PHP
 
 ## Getting Started
 
