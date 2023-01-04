@@ -60,7 +60,7 @@ class _LoginPage extends State<LoginPage> {
         textColor: Colors.white,
         toastLength: Toast.LENGTH_SHORT,
       );
-      Navigator.push(context, MaterialPageRoute(builder: (context) => MainPage()),
+//       Navigator.push(context, MaterialPageRoute(builder: (context) => MainPage()),
       );
     } else {
       Fluttertoast.showToast(
@@ -138,7 +138,7 @@ class _LoginPage extends State<LoginPage> {
                           //  check if form data are valid
                           //  your process task ahead if all data are valid
                           _login();
-                          // Navigator.push(context, MaterialPageRoute(builder: (context) => MainPage()));
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => MainPage()));
                         }
                       }, child: Text('Masuk'),
                       style: TextButton.styleFrom(
